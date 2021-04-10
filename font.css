@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('https://pem-co.github.io/menu/font/icomoon.eot?wwnoiz');
-  src:  url('https://pem-co.github.io/menu/font/icomoon.eot?wwnoiz#iefix') format('embedded-opentype'),
-    url('https://pem-co.github.io/menu/font/icomoon.ttf?wwnoiz') format('truetype'),
-    url('https://pem-co.github.io/menu/font/icomoon.woff?wwnoiz') format('woff'),
-    url('https://pem-co.github.io/menu/font/icomoon.svg?wwnoiz#icomoon') format('svg');
+  src:  url('https://pem-co.github.io/menu/font/icomoon.eot');
+  src:  url('https://pem-co.github.io/menu/font/icomoon.eot') format('embedded-opentype'),
+    url('https://pem-co.github.io/menu/font/icomoon.ttf') format('truetype'),
+    url('https://pem-co.github.io/menu/font/icomoon.woff') format('woff'),
+    url('https://pem-co.github.io/menu/font/icomoon.svg') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
