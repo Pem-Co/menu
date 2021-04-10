@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacto</title>
+	<style type="text/css">
+	body{
+		background: #0d0f1b;
+		font-family: Comic Sans MS;
+		font-weight: bold;
+		align-items: center;
+		text-align: center;
+		color: white;
+		justify-content: center;
+		height: 100vh;
+	}
+
+a {
+  position: relative;
+  font-size: 18px;
+  overflow: hidden;
+  padding-bottom: 0.4em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  width: fit-content;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  bottom: -0.4em;
+  right: 0;
+  width: 100%;
+  height: 0.4em;
+  background-color: GoldenRod;
+  transform-origin: center right;
+}
+
+a:hover::after {
+  animation-name: marquee;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes marquee {
+  from {
+    transform: scaleX(1);
+    transform-origin: top right;
+  }
+  50% {
+    transform: scaleX(0);
+    transform-origin: top right;
+  }
+  51% {
+    transform-origin: top left;
+  }
+  100%{
+    transform: scaleX(1);
+    transform-origin: top left;
+  }
+}
+	</style>
+	<script type="text/javascript">
+	</script>
+	<link rel="stylesheet" type="text/css" href="social.css">
+	<link rel="stylesheet" type="text/css" href="font.css">
+</head>
+<body>
+	<div class="marquee">
+  		<a href="#">Daniel Efrain Chiguasuque</a>
+	</div>
+	<div class="social-bar">
+		<a href="malito:preguntasincodema2020@gmail.com" class="icon icon-mail" target="_blank"></a>
+		<a href="https://www.github.com/Pem-co" class="icon icon-github" target="_blank"></a>
+	</div>
+	<div style="vertical-align: center;">
+		<br><br>
+		<h3 style="color: goldenrod">Correo: preguntasincodema2020@gmail.com</h3>
+		<h3 style="color: grey">Github: @Pem-Co</h3>
+		<br><br>
+		<h1 style="color: rgb(250,234,034);">¡¡Contactanos!!</h1>
+	</div>
+</body>
+</html>
